@@ -28,3 +28,14 @@ while t > 0:
 # Print the list to see the stored values
 print(values)
 print(values[1])
+
+
+
+#or
+
+values =[]
+T=int(input())
+for i in range(T):
+    num=int(input())
+    values.append(num)
+print(values)
