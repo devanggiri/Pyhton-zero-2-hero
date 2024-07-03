@@ -1,3 +1,5 @@
+#method 1
+
 t = int(input())
 
 while t > 0:
@@ -9,7 +11,8 @@ while t > 0:
 
 #or 
 
-    
+#method 2
+
 T=int(input())
 for i in range(T):
     num=int(input())
