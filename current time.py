@@ -1,3 +1,4 @@
+#read current tiemand give a greeting for morning, afternoon, eveving, night
 import time
 timetotal = time.strftime('%H:%M:%S')
 print(timetotal)
