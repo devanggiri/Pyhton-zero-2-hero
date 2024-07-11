@@ -1,3 +1,4 @@
+#list sorting
 alphabets = ['a','e','d','c','b'] 
 alphabets.sort() 
 print(alphabets) 
