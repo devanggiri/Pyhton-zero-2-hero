@@ -1,0 +1,25 @@
+capitalize():  hello, world! 
+lower():  hello, world! 
+upper():  HELLO, WORLD! 
+swapcase():  hELLO, wORLD! 
+title():  Hello, World! 
+strip(): Hello, World!
+lstrip(): Hello, World! 
+rstrip():  Hello, World!
+center(20, '*'): *** Hello, World! ****
+ljust(20, '*'):  Hello, World! ******
+rjust(20, '*'): ****** Hello, World! 
+replace('World', 'Python'):  Hello, Python! 
+split(): ['Hello,', 'World!']
+join(' '): Hello, World!
+find('World'): 8
+count('l'): 3
+startswith(' Hello'): True
+endswith('!'): True
+isalnum(): False
+isalpha(): False
+isdigit(): False
+islower(): False
+isupper(): False
+isspace(): False
+istitle(): False
