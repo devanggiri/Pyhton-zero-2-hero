@@ -1,0 +1,19 @@
+Add 'd': 4: {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+Update 'a': 10: {'a': 10, 'b': 2, 'c': 3, 'd': 4}
+del 'b': {'a': 10, 'c': 3, 'd': 4}
+pop('c'): 3 ; dictionary: {'a': 10, 'd': 4}
+popitem(): ('d', 4) ; dictionary: {'a': 10}
+'a' in dictionary: True
+get('a'): 10
+get('e', 'default_value'): default_value
+setdefault('e', 5): 5 ; dictionary: {'a': 10, 'e': 5}
+update({'f': 6, 'g': 7}): {'a': 10, 'e': 5, 'f': 6, 'g': 7}
+keys(): ['a', 'e', 'f', 'g']
+values(): [10, 5, 6, 7]
+items(): [('a', 10), ('e', 5), ('f', 6), ('g', 7)]
+copy(): {'a': 10, 'e': 5, 'f': 6, 'g': 7}
+clear(): {}
+dictionary comprehension {k: v**2 for k, v in d.items()}: {'a': 1, 'b': 4, 'c': 9}
+merged_dict d1 | d2: {'a': 1, 'b': 3, 'c': 4}
+dict([('a', 1), ('b', 2)]): {'a': 1, 'b': 2}
+fromkeys(['a', 'b', 'c'], 0): {'a': 0, 'b': 0, 'c': 0}
