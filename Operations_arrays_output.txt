@@ -1,0 +1,19 @@
+append(6): [1, 2, 3, 4, 5, 6]
+extend([7, 8, 9]): [1, 2, 3, 4, 5, 6, 7, 8, 9]
+insert(3, 10): [1, 2, 3, 10, 4, 5, 6, 7, 8, 9]
+remove(10): [1, 2, 3, 4, 5, 6, 7, 8, 9]
+pop(): 9 ; array: [1, 2, 3, 4, 5, 6, 7, 8]
+pop(3): 4 ; array: [1, 2, 3, 5, 6, 7, 8]
+index(4): 3
+count(3): 1
+reverse(): [8, 7, 6, 5, 3, 2, 1]
+tolist(): [8, 7, 6, 5, 3, 2, 1]
+len(arr): 7
+buffer_info(): (139718599885120, 7)
+typecode: i
+sliced_array[1:4]: [7, 6, 5]
+array comprehension (x**2 for x in arr): [64, 49, 36, 25, 9, 4, 1]
+copy(): [8, 7, 6, 5, 3, 2, 1]
+clear(): []
+concatenated_array: [1, 2, 3, 4, 5, 6, 7, 8]
+multiplied_array (arr * 3): [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
