@@ -1,0 +1,115 @@
+Original DataFrame:
+    A  B  C
+0  1  5  a
+1  2  6  b
+2  3  7  c
+3  4  8  d
+
+Access column 'A':
+ [1, 2, 3, 4]
+
+Access columns 'A' and 'C':
+    A  C
+0  1  a
+1  2  b
+2  3  c
+3  4  d
+
+Access row 0 by label:
+ A    1
+B    5
+C    a
+Name: 0, dtype: object
+
+Access rows 0 and 2 by label:
+    A  B  C
+0  1  5  a
+2  3  7  c
+
+Access row 0 by position:
+ A    1
+B    5
+C    a
+Name: 0, dtype: object
+
+Access rows 0 and 2 by position:
+    A  B  C
+0  1  5  a
+2  3  7  c
+
+Access rows 1 to 2 by position:
+    A  B  C
+1  2  6  b
+2  3  7  c
+
+Add column 'D':
+    A  B  C   D
+0  1  5  a   9
+1  2  6  b  10
+2  3  7  c  11
+3  4  8  d  12
+
+Drop column 'D':
+    A  B  C
+0  1  5  a
+1  2  6  b
+2  3  7  c
+3  4  8  d
+
+Update column 'A':
+     A  B  C   D
+0  10  5  a   9
+1  20  6  b  10
+2  30  7  c  11
+3  40  8  d  12
+
+Add row:
+     A   B  C   D
+0  10   5  a   9
+1  20   6  b  10
+2  30   7  c  11
+3  40   8  d  12
+4  50  60  e  70
+
+Drop row 4:
+     A  B  C   D
+0  10  5  a   9
+1  20  6  b  10
+2  30  7  c  11
+3  40  8  d  12
+
+Filter rows where 'A' > 20:
+     A  B  C   D
+2  30  7  c  11
+3  40  8  d  12
+4  50 60  e  70
+
+Set 'C' as new index:
+      A   B   D
+C              
+a   10   5   9
+b   20   6  10
+c   30   7  11
+d   40   8  12
+e   50  60  70
+
+Reset index:
+    C   A   B   D
+0  a  10   5   9
+1  b  20   6  10
+2  c  30   7  11
+3  d  40   8  12
+4  e  50  60  70
+
+Sort by column 'B':
+    A   B  C   D
+0  10   5  a   9
+1  20   6  b  10
+2  30   7  c  11
+3  40   8  d  12
+4  50  60  e  70
+
+Summary:
+                A          B          D
+count   5.000000   5.000000   5.000000
+mean   30.000000  17.200
