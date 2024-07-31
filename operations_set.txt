@@ -1,0 +1,38 @@
+Original set1: {1, 2, 3, 4, 5}
+
+After adding 6: {1, 2, 3, 4, 5, 6}
+
+After removing 3: {1, 2, 4, 5, 6}
+
+After discarding 2: {1, 4, 5, 6}
+
+After popping an element: {4, 5, 6}
+Popped element: 1
+
+After clearing set1: set()
+
+Original set2: {3, 4, 5, 6, 7}
+
+Union of set3 and set2: {1, 2, 3, 4, 5, 6, 7}
+
+Intersection of set3 and set2: {3}
+
+Difference of set3 and set2: {1, 2}
+
+Symmetric difference of set3 and set2: {1, 2, 4, 5, 6, 7}
+
+Is set3 a subset of set2? False
+
+Is set2 a superset of set3? False
+
+Are set3 and set2 disjoint? False
+
+Copy of set2 (set4): {3, 4, 5, 6, 7}
+
+After updating set4 with set3: {1, 2, 3, 4, 5, 6, 7}
+
+After intersection update of set4 with set2: {3, 4, 5, 6, 7}
+
+After difference update of set4 with set3: {4, 5, 6, 7}
+
+After symmetric difference update of set4 with set2: {3}
