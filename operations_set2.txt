@@ -1,0 +1,47 @@
+Original sets:
+set1: {1, 2, 3}
+set2: {3, 4, 5}
+set3: {1, 2}
+
+After adding 4 to set1: {1, 2, 3, 4}
+
+After clearing set1: set()
+
+Copy of set2 to set1: {3, 4, 5}
+
+Difference between set2 and set3: {3, 4, 5}
+
+After difference update of set1 with set3: {3, 4, 5}
+
+After discarding 4 from set1 (no error if not present): {3, 5}
+
+Intersection of set2 and set3: {1, 2}
+
+After intersection update of set2 with set3: {1, 2}
+
+Are set1 and set3 disjoint? True
+
+Is set3 a subset of set2? True
+
+Is set3 a subset of set2 (using <=)? True
+
+Is set3 a proper subset of set2 (using <)? False
+
+Is set2 a superset of set3? True
+
+Is set2 a superset of set3 (using >=)? True
+
+Is set2 a proper superset of set3 (using >)? True
+
+After popping an element from set1: {5}
+Popped element: 3
+
+After removing 4 from set1: {5}
+
+Symmetric difference between set1 and set3: {1, 2, 5}
+
+After symmetric difference update of set1 with set3: {1, 2, 5}
+
+Union of set1 and set2: {1, 2, 3, 4, 5}
+
+After updating set1 with set2: {1, 2, 3, 4, 5}
