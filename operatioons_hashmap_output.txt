@@ -1,0 +1,37 @@
+Original hashmap: {'a': 1, 'b': 2, 'c': 3}
+
+Access value by key 'a': 1
+
+After adding a new key-value pair ('d': 4): {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+
+After updating the value for key 'b': {'a': 1, 'b': 20, 'c': 3, 'd': 4}
+
+After removing key 'c': {'a': 1, 'b': 20, 'd': 4}
+Removed value: 3
+
+Get the value for key 'e' with a default: Not found
+
+Check if key 'a' exists in the hashmap: True
+
+Iterate over keys:
+a b d 
+
+Iterate over values:
+1 20 4 
+
+Iterate over key-value pairs:
+a: 1
+b: 20
+d: 4
+
+After clearing the hashmap: {}
+
+Recreated hashmap: {'a': 1, 'b': 2, 'c': 3}
+
+Copy of the hashmap: {'a': 1, 'b': 2, 'c': 3}
+
+After updating hashmap with another dictionary: {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+
+Dictionary with squared values: {'a': 1, 'b': 4, 'c': 9, 'd': 16, 'e': 25}
+
+Length of the hashmap: 5
