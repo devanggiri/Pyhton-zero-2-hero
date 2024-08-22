@@ -1,0 +1,6 @@
+# Dendrogram with Clustermap
+flights = sns.load_dataset("flights")
+data_pivot = flights.pivot("month", "year", "passengers")
+sns.clustermap(data_pivot, cmap="coolwarm", standard_scale=1)
+plt.title('Dendrogram with Clustermap')
+plt.show()
