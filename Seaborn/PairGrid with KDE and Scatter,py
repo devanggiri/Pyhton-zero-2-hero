@@ -1,0 +1,7 @@
+# PairGrid with KDE and Scatter
+g = sns.PairGrid(data, hue="sex")
+g.map_upper(sns.kdeplot, cmap="Blues_d")
+g.map_lower(sns.scatterplot)
+g.map_diag(sns.kdeplot, lw=2)
+g.add_legend()
+plt.show()
