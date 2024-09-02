@@ -1,0 +1,18 @@
+1. Data Cleaning
+1.1. Load Data
+Step: Load the data from the source (CSV, Excel, SQL, etc.).
+Code:
+python
+Copy code
+import pandas as pd
+df = pd.read_csv('data.csv')
+
+
+1.2. Understand Data Structure
+Step: Check the structure, data types, and a quick summary of the dataset.
+Code:
+python
+Copy code
+df.info()
+df.head()
+df.describe(include='all')
