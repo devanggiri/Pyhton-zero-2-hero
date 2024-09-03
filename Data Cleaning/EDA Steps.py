@@ -103,3 +103,20 @@ df['standardized_column'] = (df['numeric_column'] - df['numeric_column'].mean())
 
 # 10. Save the Cleaned Data
 df_cleaned.to_csv('cleaned_dataset.csv', index=False)
+
+
+
+
+'''
+Explanation of Steps
+Basic Information: Inspect the dataset's structure, types, and a quick statistical overview.
+Handling Missing Values: Identify and deal with missing data through deletion or imputation.
+Handle Duplicates: Identify and remove duplicate records.
+Handle Outliers: Detect and manage outliers using methods like IQR.
+Convert Data Types: Ensure data types are appropriate for analysis.
+Handle Text Data: Clean and preprocess text data, including removing special characters and leading/trailing spaces.
+Feature Engineering: Create new features, binning, or other transformations to improve the model.
+EDA: Perform univariate, bivariate, and multivariate analyses using visualizations to understand the data better.
+Data Transformation: Normalize or standardize data to prepare for modeling.
+Save the Cleaned Data: Export the cleaned and transformed dataset for further use.
+'''
